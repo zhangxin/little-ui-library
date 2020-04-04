@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrap {
+  width: 600px;
+  margin: 8px auto;
+}
+
+.btn {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: all .3s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn1 {
+  background-color: #009688;
+  color: #fff;
+}
+.btn2 {
+  background-color: #ffeb3b;
+  color: #000;
+}
+.btn3 {
+  background-color: #ff9800;
+  color: #000;
+}
+.btn4 {
+  background-color: #f44336;
+  color: #fff;
+}
+.btn5 {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
