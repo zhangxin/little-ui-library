@@ -1,0 +1,28 @@
+.card {
+  width:300px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+  width: 100%;
+}
+
+.card1 h2,
+.card1 p {
+  padding: 0 10px;
+}
+
+.card1 p {
+  padding-bottom: 10px;
+}
+.card1 >p{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card2 {
+  text-align: center;
+}
+
