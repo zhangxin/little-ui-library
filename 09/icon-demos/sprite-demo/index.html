@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>icon 的实现方式☞sprite</title>
+  <style>
+    .search {
+      margin-bottom: 20px;
+    }
+    span {
+      background: url(./imgs/sprite.png) no-repeat;
+      background-size: 60px;
+      width: 30px;
+      height: 30px;
+      vertical-align: middle;
+      display: inline-block;
+    }
+   
+  .search>span {
+    background-position: -32px;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="search">
+    <input type="text">
+    <span></span>
+  </div>
+
+  <div class="buy">
+    <button>加入购物车</button>
+    <span></span>
+  </div>
+</body>
+</html>

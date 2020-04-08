@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>icon 的实现方式☞icon-font</title>
+  <style>
+    @font-face {font-family: "iconfont";
+      src: url('iconfont.eot?t=1586359620691'); /* IE9 */
+      src: url('.iconfont.eot?t=1586359620691#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOUAAsAAAAAB4AAAANHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCaIJGATYCJAMMCwgABCAFhG0HNxuNBsiuMSYy1PaI1GqJzwos3DMdv70sVwi4MBpBNVb27M4DoAKULylUHgAUkDBvQ6BsYlnIsCMw4ubdz8wBcdQhUZp8KKc5BBigwudvChU+301NLwFkzBsgoHh+LgDQwr/t3m00woFGkNBPKKO67iIq1Onk9NICKqFQA4MsqJpHUDt8UF37497xX9YEmw+kXOYYFH0MMO68C2isTZGVMDaM3UR5EKcJtJsWSGdXdmElMJbApEBcErg2YJyyyJr60Co0l6xM8ZAmreWWPeAB/338V8YUTRWYuftilgSk/jK9rdpynNp4Op4L2joqVgBJnCz1HKYXZlboaXc0+vXlzVIoY8X/P7jEVTXDPzyKIJqB2k6wIGULv8KSWEuUnfVJFTSjBVcATwDKoOtSbW+f9rIwzzPnb4bfzr0feedtEd5aYPn8a3315qWp6e09cmdm9uxJVd3GhZnVnTV83Z4fvrvnhOaunBr2HDdNLav3trqTGwfOtfsPhma/zshb0++r6l11IEwqq0VlpdgPeSlptXsaER0Rgx3HH8Kd/gImZUQNeD53szJbtLRxt7H0C83weT6LGnK1Mm09RjtExp7PNPcyDffS2eux1GYnf+/5n+EdDtOCQsHyyfFa0JtPqOdrXuCm/v6qd+s3tPimqfvk6hLluCgSxbFQVI6JySWxxf9BM0ArgIbq26JtgNyp3+rwv7nMxjrvFK/9gwRfJpOL2jGVqmlVaC39E51So5C6HFhr2hq1DaHaY+CJBe3a0UAO9PvR3zB0t67QmpJqULSYgqrVDJLECjTpsArNWm1Cu2U56zsMoPREtmHJhACh1xMour2AqtdHJInv0GSYFpr1pgftDsbAjh3mEkx3UtzGsAS290ABKRUE2ZlpUF+OuQ5ZG03KOasaU40Qh2HBodl8DlZgOsYcTScXzhiBhCrlMFs4D8tkSqiiShEjFswzpooPCSFlHwpGSjkwtROFtWEwCahdD0iAKCkQ2poxzX2/HMbpINOG1pA6gtUwSkPoHgoTLLQFkqNRtCJdyzsanTjhGIaACEpJDsoWhmEyMkqQqnyYCEOYYHyPlEq8ENiMtNUEz6+TP982aAdm1ihRI+W5NsoMb2IaRjwAAA==') format('woff2'),
+      url('iconfont.woff?t=1586359620691') format('woff'),
+      url('iconfont.ttf?t=1586359620691') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+      url('iconfont.svg?t=1586359620691#iconfont') format('svg'); /* iOS 4.1- */
+    }
+
+    .iconfont {
+      font-family: "iconfont" !important;
+      font-size: 20px;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .search{
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="search">
+    <input type="text">
+    <span class="iconfont">&#xe600;</span>
+  </div>
+
+  <div class="buy">
+    <button>加入购物车</button>
+   <span class="iconfont">&#xe60b;</span>
+  </div>
+</body>
+</html>
