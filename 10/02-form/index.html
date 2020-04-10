@@ -1,0 +1,56 @@
+<!dOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <!-- 表单标题 -->
+    <h2 class="title">信息收集表</h2>
+    <form action="" method="POST">
+      <div>
+        <label for="username">姓名</label>
+        <input type="text" name="username" id="username">
+      </div>
+
+      <div>
+        <label for="qq">QQ</label>
+        <input type="text" name="qq" id="qq">
+      </div>
+
+      <div>
+        <label for="comments">要说的话</label>
+        <textarea name="comments" id="comments" cols="30" rows="4"></textarea>
+      </div>
+
+      
+      <div class="clearfix">
+        <!-- 多选 -->
+        <div class="selection-box">
+          <input type="checkbox" name="drinks" id="milk" value="milk" checked>
+          <label for="milk">Milk</label> <br>
+          <input type="checkbox" name="drinks" id="suger" value="suger">
+          <label for="suger">Sugar</label> <br>
+          <input type="checkbox" name="drinks" id="lemon" value="lemon">
+          <label for="lemon">Lemon</label> <br>
+        </div>
+
+        <!-- 单选 -->
+        <div class="selection-box">
+          <input type="radio" name="grnder" id="male" value="male" checked>
+          <label for="male">Male</label> <br>
+          <input type="radio" name="grnder" id="female" value="female">
+          <label for="male">Female</label>
+        </div>
+
+      </div>
+
+      <!-- 提交按钮 -->
+      <button id="submit-btn">提交</button>
+    </form>
+  </div>
+</body>
+</html>

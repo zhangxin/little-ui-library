@@ -1,0 +1,62 @@
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.layout {
+  width: 600px;
+  margin: 0 auto;
+  font-family: arial;
+  padding-bottom: 16px;
+  box-shadow:rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+}
+
+.title {
+  background-color: #009688;
+  padding: 15px 16px;
+  color: #fff;
+}
+
+form {
+  margin: 16px;
+}
+
+.layout label {
+  color: #757575;
+  vertical-align: middle;
+}
+
+.layout>form>div {
+  margin-top: 16px;
+}
+
+#username,
+#qq,
+#comments {
+  display: block;
+  padding:8px 0;
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #808080;
+}
+
+#username:focus,
+#qq:focus,
+.layout textarea:focus {
+  outline: none;
+}
+
+.selection-box {
+  width: 50%;
+  float: left;
+  line-height: 1.4;
+}
+
+button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: #808080;
+  color: #fff;
+  border: none;
+}
