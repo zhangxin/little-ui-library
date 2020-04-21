@@ -1,0 +1,45 @@
+.layout {
+  width: 600px;
+  margin: 0px auto;
+}
+
+.h-modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.box {
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.h-modal>.box>header,
+.h-modal>.box>footer {
+  background-color: #009688;
+  padding: 1px 16px;
+  color: #fff;
+}
+
+.h-modal>.box>header>.close {
+  float: right;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+.h-modal>.box>main {
+  padding: 16px;
+}
+
+
