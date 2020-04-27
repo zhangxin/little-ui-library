@@ -15,3 +15,13 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - [精灵图](https://zhangxin.github.io/little-ui-library/09/01-css-sprite)
+
+- [iconfont](https://zhangxin.github.io/little-ui-library/09/02-iconfont-demo)
+
+- [精灵图2](https://zhangxin.github.io/little-ui-library/09/icon-demos/css-sprite-demo)
+
+- [iconfont2](https://zhangxin.github.io/little-ui-library/09/icon-demos/iconfont-demo)
+
+- [image](https://zhangxin.github.io/little-ui-library/09/icon-demos/image-demo)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
